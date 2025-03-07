@@ -65,17 +65,33 @@
 
 #exo 7
 
-echo "entrez un nom de fichier"
-read fichier
-echo "confirmez-vous vouloir appeler votre fichier '$fichier' ?"
-read confirmation
-case $confirmation in
-    "oui")
-        echo "votre fichier a été créé"
-        ;;
-    "non")
-        echo "au revoir"
-        ;;
-esac
+# echo "entrez un nom de fichier"
+# read fichier
+# echo "confirmez-vous vouloir appeler votre fichier '$fichier' ?"
+# read confirmation
+# case $confirmation in
+#     "oui")
+#         touch $fichier.txt
+#         echo "votre fichier a été créé"
+#         ;;
+#     "non")
+#         echo "au revoir"
+#         ;;
+# esac
     
+#exo 8
+
+echo "comment voulez-vous appeler votre fichier?"
+read name
+echo "combien de versions voulez-vous créer ?"
+read nb
+
+i=1
+while [ $i -le $nb ]
+do
+    touch $name$i
+    ((i++))
+done
+
+echo "les $nb fichiers ont été créés avec succès"
     
