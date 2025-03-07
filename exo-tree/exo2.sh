@@ -30,4 +30,19 @@
 #     echo "la variable n'est pas égale à 5"
 # fi
 
+#exempleif2
 
+num=85
+
+if [ $num -ge 90 ]
+then
+    echo "yes"
+
+elif [ $num -ge 80 ]
+then
+    echo "maybe"
+
+else
+    echo "nope"
+
+fi
