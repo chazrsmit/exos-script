@@ -5,3 +5,4 @@ touch public/js/main.js
 touch public/css/{footer,header,main}/style.css
 touch public/img/img{1..2}.png
 touch public/index.html
+tree.com //f
