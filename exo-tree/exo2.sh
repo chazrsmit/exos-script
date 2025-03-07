@@ -32,17 +32,35 @@
 
 #exempleif2
 
-num=85
+# num=85
 
-if [ $num -ge 90 ]
-then
-    echo "yes"
+# if [ $num -ge 90 ]
+# then
+#     echo "yes"
 
-elif [ $num -ge 80 ]
-then
-    echo "maybe"
+# elif [ $num -ge 80 ]
+# then
+#     echo "maybe"
 
-else
-    echo "nope"
+# else
+#     echo "nope"
 
-fi
+# fi
+
+#exo 5
+# echo "entrez un nombre"
+# read nb1
+# echo "entrez un 2ème nombre"
+# read nb2
+# num=$((nb1 + nb2))
+# echo "$nb1 + $nb2 donne $num"
+
+#exo 6
+# if [ -f exo.sh ]
+# then
+#     echo "le fichier existe"
+# else
+#     echo "le fichier n'existe pas"
+# fi
+
+
