@@ -63,4 +63,19 @@
 #     echo "le fichier n'existe pas"
 # fi
 
+#exo 7
 
+echo "entrez un nom de fichier"
+read fichier
+echo "confirmez-vous vouloir appeler votre fichier '$fichier' ?"
+read confirmation
+case $confirmation in
+    "oui")
+        echo "votre fichier a été créé"
+        ;;
+    "non")
+        echo "au revoir"
+        ;;
+esac
+    
+    
