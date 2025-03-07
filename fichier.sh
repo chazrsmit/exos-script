@@ -1,4 +1,3 @@
 #!/bin/bash
 
-hello
-bonjr
+echo "hello world!"
